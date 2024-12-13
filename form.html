@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form of cvs</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1> CVS college survey form</h1>
+
+    <form id="form">
+
+    <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text" id="fname" name="fname" placeholder="enter your name">
+</div>
+
+<div class="form-control">
+    <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="enter your email">
+</div> 
+
+  <div class="form-control">
+    <label for="age">Age</label>
+        <input type="number" id="age" placeholder="enter your age">
+    </div>
+       
+    <div class="form-control">
+        <label for="Year">What is your current year?</label>
+       <br>
+        <select form="year">
+            <option value="first">First year</option>
+            <option value="second">Second year</option>
+            <option value="third">Third year</option>
+            <option value="fourth">Forth year</option>
+        </select>
+    </div>
+<div class="form-control">
+       
+        <label>Would you recommend other students to take admission?</label>
+<br>
+        <label for="yes">
+        <input type="radio" id="yes">Yes</input>
+    </label>
+    <br>
+<label for="No">
+        <input type="radio" id="no">No</input>
+    </label>
+    </div>
+
+    <div class="form-control">
+        <label>Courses offered in college (click on the courses you pursued currently)</label>
+        <br>
+        <label for="Bsc hons Computer Science">
+            <input type="checkbox">Bsc hons Computer Science</input>
+        </label>
+    <br>
+        <label for="Bsc hons mathematics">
+            <input type="checkbox">Bsc hons mathematics</input>
+        </label>
+    <br>
+        <label for="Bcom Hons">
+            <input type="checkbox">Bcom hons</iput>
+        </label>
+    <br>
+        <label for="BBA">
+            <input type="checkbox">BBA</input>
+        </label>
+    <br>
+        <label for="MBA">
+            <input type="checkbox">MBA</input>
+        </label>
+
+<br>
+<br>
+    <label for="suggestion">Any comments or suggestion</label>
+    <br>
+    <textarea id="comment" id="comment" placeholder="Enter your comment here"></textarea>
+
+    <button type="submit" value="submit">Submit</button>
+
+
+
+
+    </div>
+</form>
+    
+</body>
+</html>
